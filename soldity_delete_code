@@ -1,15 +1,9 @@
 /**
- * How to delete an item from struct mappings?
- * This sample solidity code shows how we can delete item on struct mapping.
- * delete struct[item] removes only the contents and doesnot delete actual place holder
- * so we need to move last item to the deleted index and decrease the itemCount
- * 
  * Author: Rajendra Maharjan
  * Sample code for deleting item from struct mapping
  */
 
 pragma solidity ^0.4.24;
-
 
 contract MyContract {
     struct Item {
